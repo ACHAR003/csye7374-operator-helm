@@ -16,7 +16,7 @@ spec:
       containers:
         - name: csye7374-project-operator
           # Replace ths with the built image name
-          image: acharyarajat/s3-operator-t1:test
+          image: {{ .Values.operator.image }}
           command:
           - csye7374-project-operator
           imagePullPolicy: Always
