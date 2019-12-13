@@ -18,13 +18,13 @@ fullnameOverride: ""
  # create: true
  # # The name of the service account to use.
  # # If not set and create is true, a name is generated using the fullname template
-  name:
+ # name:
 
 operator:
-  accessKey: AKIA5NCLGKDVFPXR7F5R
-  secrtAccessKey: "lBARHJkNmbR7jAlwDnz9dv+8QXcIvFJVSJMkySwT"
-  bucketName: csye7374-operator-t1
-  image: acharyarajat/s3-operator-t1:test
+  accessKey: 
+  secrtAccessKey: 
+  bucketName: 
+  image: 
 
 podSecurityContext: {}
   # fsGroup: 2000
