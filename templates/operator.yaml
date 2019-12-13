@@ -15,7 +15,7 @@ spec:
       serviceAccountName: csye7374-project-operator
       containers:
         - name: csye7374-project-operator
-          # Replace ths with the built image name
+          # Replace this with the built image name
           image: {{ .Values.operator.image }}
           command:
           - csye7374-project-operator
