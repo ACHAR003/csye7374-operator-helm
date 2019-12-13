@@ -24,6 +24,7 @@ operator:
   accessKey: AKIA5NCLGKDVFPXR7F5R
   secrtAccessKey: "lBARHJkNmbR7jAlwDnz9dv+8QXcIvFJVSJMkySwT"
   bucketName: csye7374-operator-t1
+  image: acharyarajat/s3-operator-t1:test
 
 podSecurityContext: {}
   # fsGroup: 2000
