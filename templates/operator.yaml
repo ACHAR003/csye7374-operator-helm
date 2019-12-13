@@ -15,7 +15,7 @@ spec:
       serviceAccountName: csye7374-project-operator
       containers:
         - name: csye7374-project-operator
-          # Replace this with the built image name
+          # Replace ths with the built image name
           image: acharyarajat/s3-operator-t1:test
           command:
           - csye7374-project-operator
